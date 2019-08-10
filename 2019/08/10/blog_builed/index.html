@@ -178,7 +178,7 @@
 <h2 id="建站"><a href="#建站" class="headerlink" title="建站"></a>建站</h2><ol>
 <li>首先要选择一个你的盘符在命令窗口中直接输入盘符名称加”:”即可，(比如你要在d盘下创建博客本地文件)：<br><code>d:</code></li>
 <li>创建一个文件夹(可以直接在文件管理器中直接创建，也可以通过一下命令，文件名随意)<br><code>mkdir blog</code></li>
-<li>输入<code>hexo init &lt;folder&gt;</code><br><br>用你想要的文件名代替”&lt;folder&gt;”</li>
+<li>输入<br><code>hexo init &lt;folder&gt;</code><br><br>用你想要的文件名代替”&lt;folder&gt;”</li>
 <li><code>cd &lt;folder&gt;</code><br>在终端(也就是命令窗口)进入你刚刚创建的文件夹</li>
 <li><code>npm install</code><br>输入该命令直接搭建博客框架</li>
 </ol>
@@ -192,7 +192,7 @@
 <h2 id="链接到你的仓库"><a href="#链接到你的仓库" class="headerlink" title="链接到你的仓库"></a>链接到你的仓库</h2><ol>
 <li>进入你的git for windows的安装路径</li>
 <li>点击打开<code>git-bash.exe</code></li>
-<li>输入<br><br><code>ssh-keygen -t rsa -C &quot;你的github的注册邮箱&quot;</code></li>
+<li>输入<br><code>ssh-keygen -t rsa -C &quot;你的github的注册邮箱&quot;</code></li>
 <li>然后一直回车就好了可以生成一个key用来github的ssh链接的。他上面应该会有一条信息是<code>Your public key has been saved in &quot;你的地址/id_rsa&quot;</code></li>
 <li>进入你的github。在你的头像哪里的弹出框点击settings，然后在点击SSH and GPG keys</li>
 <li>新建一个ssh，输入一个名字，然后用记事本打开你的”id_rsa”文件，将里面的内容全部复制下来，粘贴到key里面。</li>
@@ -201,8 +201,8 @@
 <h2 id="本地-amp-远程访问"><a href="#本地-amp-远程访问" class="headerlink" title="本地&amp;远程访问"></a>本地&amp;远程访问</h2><ul>
 <li><p>本地访问</p>
 <ol>
-<li><code>hexo g</code><br><br>命令是生成静态文件</li>
-<li><code>hexo s -p 5555</code><br><br>通过该命令就可以在本地访问你的博客了，5555是你的端口名，可以随意填，只要没被占用就行了。</li>
+<li><code>hexo g</code><br>命令是生成静态文件</li>
+<li><code>hexo s -p 5555</code><br>通过该命令就可以在本地访问你的博客了，5555是你的端口名，可以随意填，只要没被占用就行了。</li>
 <li>在浏览器输入<code>localhost:5555</code>访问。</li>
 <li>按ctrl+c退出。</li>
 </ol>
@@ -258,10 +258,10 @@
                     <div class="mt5 mt0-l">
     <article class="dt db-l mw8 mw8-m mw5-ns center ml0-l bg-white mv3">
         <div class="dn dtc-m db-l v-mid tc pr4 pr0-l" style="min-width: 6rem;">
-            <img src="http://tachyons.io/img/avatar_1.jpg" class="mb4-l br-100 h3 w3 h4-l w4-l dib" title="HYuebin">
+            <img src="/img/head.jpg" class="mb4-l br-100 h3 w3 h4-l w4-l dib" title="HYuebin">
         </div>
         <div class="dtc db-l v-mid lh-copy measure center f6 black-50 tj">
-            My name is Jonathan Klughertz and this is my blog.<br>I am a full stack software engineer with a strong front-end focus.<br> I currently live and work in Singapore, hit me up if you are in the region.
+            大家好！我是Hyuebin，这是我的博客。<br>在以后的时间里，希望可以通过该博客记录生活中发生的有趣的事情，以及分享一些在开发过程中所遇到的问题及解决办法。希望大家多多支持！
         </div>
     </article>
 </div>
